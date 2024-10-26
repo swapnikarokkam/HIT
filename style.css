@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    }
+    * p{
+        font-family: 'Josefin Sans';
+        font-style:normal;
+        font-size: 16px;
+    }
+body{
+    margin:auto;
+}
+header{
+    border-bottom: 1px solid rgb(171, 169, 169);
+}
+header ul li .nav-link:hover{
+color:orange;
+}
+ .about{
+    background-color:  #f8f9fa;
+   }
+.about h5{
+    padding:10px;
+     margin:20px;
+ background-color: green;
+ color:white;
+}
+.about button{
+    background-color: orange !important;
+    color:black;
+    width:150px;
+    height:50px;
+    border:none !important;
+}
+.courses{
+    background-color: lightgray;
+}
+.courses img:hover{
+    transform:scale(1.1);
+    transition-duration: 2s;
+}
+table a{
+    color:red;
+}
+.training{
+    background-color: lightgray;
+}
+.training figure{
+    background-color: white;
+    margin: 10px;
+    padding:20px;
+       }
+.methods figure{
+    background-color: lightgray;
+       }
+.methods figcaption , .training figcaption{
+    margin-top: 20px;
+}
+.training p{
+    font-size: 16px;
+    line-height:28px;
+}
+.link{
+    background-color: green;
+    color:white;
+}
+.link ul li{
+    display: block;
+    text-decoration: none;
+}
+.link span{
+    color:yellow;
+}
+.link .quick i , .link .reach i, .link .contact i{
+    color:yellow;
+}
+.link .contact a{
+    margin:15px;
+}
+ .link .contact a:hover{
+    background-color: black;
+ }
+ footer{
+    background-color: darkgreen;
+    color:white;
+ }
+ .abt{
+    background-color: darkblue;
+    color:white;
+ }
+ .abt span{
+    color:orange;
+ }
+ .enquiry , .address{
+    padding:35px 30px 20px 30px;
+ }
+ .list a{
+    text-decoration: none;
+    color:white;
+ }
+ .list a:hover{
+    color:blue;
+ }
+ .table a:hover{
+color: blue;
+ }
+ .course-info{
+    background-color: darkslateblue;
+    color:white;
+ }
+ .count{
+    background-color: darkblue;
+    color:white;
+ }
+ .count h3{
+    color:yellow;
+ }
+ .owl-class p{
+    text-align: justify;
+    padding-bottom: 32px;
+    line-height: 30px;
+    font-size: 16px;
+ }
+ 
+ .owl-class h6{
+    text-align:end;
+ }
